@@ -8,12 +8,15 @@ public class DataTypes {
         var salary = 1000; //int
         //pension 3% of salary
         var pension = salary*0.03; //double
-        var totalSalary = salary - pension;
+        var totalSalary = salary - pension; //double
         System.out.println(salary);
         System.out.println(pension);
         System.out.println(totalSalary);
 
         var nameEmployee = "Dorelly Crisanto";
         System.out.println("Employee: " + nameEmployee + " Salary: " + totalSalary);
+
+        //char: 2bytes, comillas simples y un solo elemento
+        //boolean:2bytes, rango true or false
     }
 }
